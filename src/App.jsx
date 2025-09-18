@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1>React on the gooooo</h1>
-      <Suspense fallback={<p>Nadir bhai loading...</p>}>
+      <Suspense fallback={<p>Country names loading...</p>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
     </>
